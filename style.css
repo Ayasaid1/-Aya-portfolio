@@ -15,17 +15,6 @@
 
 }
 
-/* Laptop */
-@media (max-width: 1200px) {}
-
-/* Tablet */
-@media (max-width: 992px) {}
-
-/* Mobile */
-@media (max-width: 768px) {}
-
-/* Small Mobile */
-@media (max-width: 576px) {}
 
 * {
     margin: 0;
@@ -70,8 +59,7 @@ max-width: 1200px;
 /* =========================
    NAVBAR
 *======================== */
-@media (max-width:768px) {
-    header {
+header {
 
     position: fixed;
 
@@ -176,11 +164,11 @@ max-width: 1200px;
 
     background: #FF418A;
 }
-}
+
 /* =========================
    HERO SECTION
 ========================= */
-@media (max-width:768px) {
+
 .hero {
     min-height: 92vh;
     display: flex;
@@ -771,11 +759,10 @@ max-width: 1200px;
     height: 20px;
 
 }
-}
 /*==================================
         PROJECTS SECTION
 ==================================*/
-@media (max-width:768px) {
+
 .projects {
     padding: 0;
     position: relative;
@@ -1093,12 +1080,11 @@ max-width: 1200px;
     letter-spacing: .5px;
 
 }
-}
 
 /*==================================
             ABOUT
 ==================================*/
-@media (max-width:768px) {
+
 .about {
 
     padding: 120px 0;
@@ -1292,11 +1278,11 @@ max-width: 1200px;
     color: #777;
 
 }
-}
+
 /*==================================
             TOOLBOX
 ==================================*/
-@media (max-width:768px) {
+
 .toolbox {
 
     padding:  0;
@@ -1414,11 +1400,11 @@ max-width: 1200px;
     line-height: 1.7;
 
 }
-}
+
 /*==================================
         EDUCATION
 ==================================*/
-@media (max-width:768px) {
+
 .education {
 
     padding: 120px 0;
@@ -1586,11 +1572,11 @@ max-width: 1200px;
     font-weight: 600;
 
 }
-}
+
 /*==================================
         EXPERIENCE
 ==================================*/
-@media (max-width:768px) {
+
 .experience {
     padding:  0;
 }
@@ -1700,11 +1686,11 @@ max-width: 1200px;
     transition: .3s;
 
 }
-}
+
 /*==================================
         CONTACT
 ==================================*/
-@media (max-width:768px) {
+
 .contact {
 
     padding: 120px 0 60px;
@@ -1896,11 +1882,11 @@ max-width: 1200px;
     background: var(--primary-hover);
 
 }
-}
+
 /*==================================
         FOOTER
 ==================================*/
-@media (max-width:768px) {
+
 .footer {
 
     padding: 80px 0 30px;
@@ -2045,5 +2031,4 @@ max-width: 1200px;
 
     font-size: 14px;
 
-} 
 }
