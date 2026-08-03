@@ -509,142 +509,96 @@
         PROJECTS GRID
 ==================================*/
 
-@media (max-width:992px) {
-
-    .project-grid {
-
-        grid-template-columns: repeat(2, 1fr);
-
-        gap: 25px;
-
-    }
-
-}
-
 @media (max-width:768px) {
 
-    .project-grid {
+    .projects {
 
-        grid-template-columns: 1fr;
-
-    }
-
-    .project-card {
-
-        max-width: 500px;
-
-        margin: auto;
+        padding: 70px 0;
 
     }
 
-}
+    .featured-project {
 
-@media (max-width:576px) {
+        display: flex;
 
-    .project-card {
+        flex-direction: column;
+
+        gap: 25px;
 
         padding: 20px;
 
     }
 
-    .project-card h3 {
+    .featured-image {
 
-        font-size: 22px;
-
-    }
-
-    .project-card p {
-
-        font-size: 15px;
+        width: 100%;
 
     }
 
-}
+    .featured-image img {
 
+        width: 100%;
 
+        height: auto;
 
-
-/*==================================
-        ABOUT
-==================================*/
-
-@media (max-width:992px) {
-
-    .about {
-
-        text-align: center;
+        border-radius: 18px;
 
     }
 
-    .about .container:first-child {
+    .featured-content {
 
-        max-width: 700px;
+        width: 100%;
+
+        text-align: left;
 
     }
 
-    .Experience {
+    .project-grid {
 
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+
+        grid-template-columns: 1fr;
 
         gap: 20px;
 
     }
 
-}
+    .project-card {
 
-@media (max-width:768px) {
-
-    .about h2 {
-
-        font-size: 40px;
+        width: 100%;
 
     }
 
-    .about p {
+}
 
-        font-size: 16px;
+/*==================================
+        ABOUT
+==================================*/
+@media (max-width:768px) {
+
+    .about .container {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 35px;
 
     }
 
     .Experience {
 
+        display: grid;
+
         grid-template-columns: 1fr;
+
+        gap: 18px;
 
     }
 
     .Experience-card {
 
-        padding: 24px;
-
-    }
-
-}
-
-@media (max-width:576px) {
-
-    .about h2 {
-
-        font-size: 32px;
-
-        line-height: 1.2;
-
-    }
-
-    .about p {
-
-        font-size: 15px;
-
-    }
-
-    .Experience-card h3 {
-
-        font-size: 20px;
-
-    }
-
-    .Experience-card p {
-
-        font-size: 14px;
+        width: 100%;
 
     }
 
@@ -653,65 +607,25 @@
         MY CREATIVE STACK
 ==================================*/
 
-@media (max-width:992px) {
+@media (max-width:768px) {
 
-    .skills-grid {
+    .toolbox-grid {
+
+        display: grid;
 
         grid-template-columns: repeat(2, 1fr);
 
-        gap: 20px;
+        gap: 18px;
+
+    }
+
+    .toolbox-card {
+
+        width: 100%;
 
     }
 
 }
-
-@media (max-width:768px) {
-
-    .skills-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-    .skill-card {
-
-        padding: 25px;
-
-    }
-
-    .skill-card h3 {
-
-        font-size: 22px;
-
-    }
-
-    .skill-card p {
-
-        font-size: 15px;
-
-    }
-
-}
-
-@media (max-width:576px) {
-
-    .skill-card {
-
-        padding: 22px;
-
-    }
-
-    .skill-icon {
-
-        width: 60px;
-
-        height: 60px;
-
-    }
-
-}
-
-
 
 
 /*==================================
