@@ -15,6 +15,18 @@
 
 }
 
+/* Laptop */
+@media (max-width: 1200px) {}
+
+/* Tablet */
+@media (max-width: 992px) {}
+
+/* Mobile */
+@media (max-width: 768px) {}
+
+/* Small Mobile */
+@media (max-width: 576px) {}
+
 * {
     margin: 0;
     padding: 0;
@@ -55,8 +67,11 @@ max-width: 1200px;
 
 }
 
-
-header {
+/* =========================
+   NAVBAR
+*======================== */
+@media (max-width:768px) {
+    header {
 
     position: fixed;
 
@@ -161,11 +176,11 @@ header {
 
     background: #FF418A;
 }
-
+}
 /* =========================
    HERO SECTION
 ========================= */
-
+@media (max-width:768px) {
 .hero {
     min-height: 92vh;
     display: flex;
@@ -756,10 +771,11 @@ header {
     height: 20px;
 
 }
+}
 /*==================================
         PROJECTS SECTION
 ==================================*/
-
+@media (max-width:768px) {
 .projects {
     padding: 0;
     position: relative;
@@ -1077,11 +1093,12 @@ header {
     letter-spacing: .5px;
 
 }
+}
 
 /*==================================
             ABOUT
 ==================================*/
-
+@media (max-width:768px) {
 .about {
 
     padding: 120px 0;
@@ -1275,11 +1292,11 @@ header {
     color: #777;
 
 }
-
+}
 /*==================================
             TOOLBOX
 ==================================*/
-
+@media (max-width:768px) {
 .toolbox {
 
     padding:  0;
@@ -1397,11 +1414,11 @@ header {
     line-height: 1.7;
 
 }
-
+}
 /*==================================
         EDUCATION
 ==================================*/
-
+@media (max-width:768px) {
 .education {
 
     padding: 120px 0;
@@ -1569,11 +1586,11 @@ header {
     font-weight: 600;
 
 }
-
+}
 /*==================================
         EXPERIENCE
 ==================================*/
-
+@media (max-width:768px) {
 .experience {
     padding:  0;
 }
@@ -1683,11 +1700,11 @@ header {
     transition: .3s;
 
 }
-
+}
 /*==================================
         CONTACT
 ==================================*/
-
+@media (max-width:768px) {
 .contact {
 
     padding: 120px 0 60px;
@@ -1879,11 +1896,11 @@ header {
     background: var(--primary-hover);
 
 }
-
+}
 /*==================================
         FOOTER
 ==================================*/
-
+@media (max-width:768px) {
 .footer {
 
     padding: 80px 0 30px;
@@ -2028,4 +2045,5 @@ header {
 
     font-size: 14px;
 
+} 
 }
